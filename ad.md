@@ -4,6 +4,7 @@ Tools
 - group3r (for gpo audits)
 - snaffler (for share snaffling)
 - https://github.com/vletoux/SmbScanner for scanning SMB
+- pingcastle scanners for checking other kind of vulnerabilities inside domains
 - bloodhound (if possible)
 
 Things to check
