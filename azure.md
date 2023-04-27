@@ -11,7 +11,7 @@ https://silverhack.github.io/monkey365/configuration/microsoft365-options/
 https://silverhack.github.io/monkey365/configuration/azure-options/
 
 # scuba 
-PS C:\Users\joost\Downloads\ScubaGear-0.3.0> Import-Module -Name .\PowerShell\ScubaGear \\
+PS C:\Users\joost\Downloads\ScubaGear-0.3.0> Import-Module -Name .\PowerShell\ScubaGear <br>
 PS C:\Users\joost\Downloads\ScubaGear-0.3.0> Invoke-SCuBA
 
 # Things to check
