@@ -3,11 +3,12 @@
 - pingcastle azure module (doesn't find very much just yet)
 - 
 # monkey365
-- Import-Module ./monkey365
-$assets = Invoke-Monkey365 -ExportTo PRINT,HTML -PromptBehavior SelectAccount -IncludeAzureActiveDirectory -Instance Microsoft365 -Analysis 
-$assets = Invoke-Monkey365 -ExportTo PRINT,HTML -PromptBehavior SelectAccount -IncludeAzureActiveDirectory -Instance Azure -Analysis All
-SharePointOnline,ExchangeOnline,MicrosoftTeams,IRM 
-https://silverhack.github.io/monkey365/configuration/microsoft365-options/
+Import-Module ./monkey365 <br>
+$assets = Invoke-Monkey365 -ExportTo PRINT,HTML -PromptBehavior SelectAccount -IncludeAzureActiveDirectory -Instance Microsoft365 -Analysis SharePointOnline,ExchangeOnline,MicrosoftTeams,IRM <br>
+$assets = Invoke-Monkey365 -ExportTo PRINT,HTML -PromptBehavior SelectAccount -IncludeAzureActiveDirectory -Instance Azure -Analysis All <br>
+<br>
+configuration <br>
+https://silverhack.github.io/monkey365/configuration/microsoft365-options/ <br>
 https://silverhack.github.io/monkey365/configuration/azure-options/
 
 # scuba 
