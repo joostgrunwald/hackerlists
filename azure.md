@@ -10,9 +10,13 @@ SharePointOnline,ExchangeOnline,MicrosoftTeams,IRM
 https://silverhack.github.io/monkey365/configuration/microsoft365-options/
 https://silverhack.github.io/monkey365/configuration/azure-options/
 
-FOR LATER
-- scoutsuite using venv ──(venv)─(fortifier㉿fortifier)-[~/ScoutSuite]
-└─$ python3 scout.py azure --user-account-browser --subscriptions {tenid}
+# scuba 
+PS C:\Users\joost\Downloads\ScubaGear-0.3.0> Import-Module -Name .\PowerShell\ScubaGear
+PS C:\Users\joost\Downloads\ScubaGear-0.3.0> Invoke-SCuBA
+WARNING: Your connection has been redirected to the following URI:
+"https://eur03b.ps.compliance.protection.outlook.com/Powershell-LiveId?BasicAuthToOAuthConversion=true;PSVersion=5.1.22
+000.1335"
+PS C:\Users\joost\Downloads\ScubaGear-0.3.0>
 
 # Things to check
 - which blobs are open
