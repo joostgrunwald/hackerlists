@@ -1,0 +1,6 @@
+- Full nuclei scan <br>
+- Acunetix scan <br>
+- Nessus scan <br>
+- subdomain enumeration <br> 
+- nuclei fuzz templates https://twitter.com/pdnuclei/status/1635642984996782080 <br>
+- wappalyzer, retirejs, shodan, nmap vulners
