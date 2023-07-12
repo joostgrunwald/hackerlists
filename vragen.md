@@ -34,8 +34,14 @@
 en contractanten die uit dienst gaan in. Wordt
 bedrijfsapparatuur direct ingeleverd en de data gewist?  <br?
 .13  Screent u nieuwe en huidige medewerkers die met
-vertrouwelijke (klant-) informatie werken? Ja Deels Nee Weet ik niet Niet van toepassing
+vertrouwelijke (klant-) informatie werken? Ja Deels Nee Weet ik niet Niet van toepassing <br>
 .14 Heeft uw organisatie een geheimhoudings-overeenkomst
-opgesteld om gevoelige informatie te beschermen?
+opgesteld om gevoelige informatie te beschermen? <br>
   .14.1 Tekenen medewerkers (en indien relevant externe krachten)
-  op gevoelige functies deze ook?
+  op gevoelige functies deze ook? <br>
+.15 Wat gebeurt er met oude apperaten? Worden deze professioneel vernietigd/gewiped? Ontvang je hiervan ook bevestiging? <br>
+.16 Is er een papierversnipperaar/vernietiger aanwezig op kantoor? <br>
+.17 Maak je gebruik van firewalls? <br>
+.18 Is er een gasten netwerk en heeft dit ook minimale rechten (controleer dit tijdens scan)? <br>
+.19 Worden gevoelige gegevens altijd encrypted verstuurd? Of ook over bvb email?
+
