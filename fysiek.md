@@ -3,4 +3,4 @@
 .2 Hoe makkelijk kom ik sochtends binnen? <br>
 .3 Vind ik gevoelige gegevens op locatie rondslingeren? <br>
 .4 Is er een pasjessysteem op basis van ruimte of in ieder geval een voordeur die opslot is/een receptie? <br>
-.5 Is er een alarmsysteem aanwezig?
+.5 Is er een alarmsysteem aanwezig? Is deze recent nog een keer gecheckt? <br>
