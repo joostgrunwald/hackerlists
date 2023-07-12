@@ -23,3 +23,6 @@
 .9 Zijn de rechten en rollen van iedereen gedefinieerd? <br> 
 .9.1 Is er een document waarin dit is vastgelegd? <br>
 .9.2 Is er authorisatie op basis van deze rechtenstructuur? <br>
+.10 Is er iets van vulnerability management/scanning? <br>
+.10.1 Wordt dit ook periodiek opgevolgd? Welke periode? <br>
+.10.2 Hoevaak scan je? <br>
