@@ -7,3 +7,5 @@
   .4.2 ZELF: zijn er hier pentests?
 .5 Welke partijen werk je mee? <br>
   .5.1 Kan je van deze partij de SLA doorsturen? <br>
+.6 Doe je ooit iets met awareness?
+.7 Heb je ooit al kwetsbaarhedenscans/pentests gedaan?
