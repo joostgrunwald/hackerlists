@@ -3,6 +3,7 @@
   .1.1 Hoever zijn deze terug? <br>
   .1.2 Kan je per user dingen terugzetten? <br>
   .1.3 Hoevaak wordt een backup gemaakt? <br>
+  .1.4 Test u de backup preventief? <br>
 .2 Is er informatiebeveiligingsreleid? <br>
 .3 Heeft u wel eens nagedacht over acties bij een breach (incident response)? <br>
   .3.1 Is er incident response beleid aanwezig? (en kan ik dit ontvangen) <br>
@@ -26,3 +27,15 @@
 .10 Is er iets van vulnerability management/scanning? <br>
 .10.1 Wordt dit ook periodiek opgevolgd? Welke periode? <br>
 .10.2 Hoevaak scan je? <br>
+.11 Maakt u gebruik van EDR systemen? <br>
+.11.1 Wie kijkt hier naar? <br>
+.11.2 Gebruikt u een SIEM? <br>
+.12 Trekt u direct de toegangsrechten van medewerkers
+en contractanten die uit dienst gaan in. Wordt
+bedrijfsapparatuur direct ingeleverd en de data gewist?  <br?
+.13  Screent u nieuwe en huidige medewerkers die met
+vertrouwelijke (klant-) informatie werken? Ja Deels Nee Weet ik niet Niet van toepassing
+.14 Heeft uw organisatie een geheimhoudings-overeenkomst
+opgesteld om gevoelige informatie te beschermen?
+  .14.1 Tekenen medewerkers (en indien relevant externe krachten)
+  op gevoelige functies deze ook?
