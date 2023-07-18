@@ -5,4 +5,5 @@
 - DMARC?
 
 # Checks
+- Spooftest
 - delivr.to
