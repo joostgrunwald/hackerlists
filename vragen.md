@@ -8,7 +8,7 @@
 .3 Heeft u wel eens nagedacht over acties bij een breach (incident response)? <br>
   .3.1 Is er incident response beleid aanwezig? (en kan ik dit ontvangen) <br>
   .3.2 Is dit plan wel eens getest? Door bvb een simulatie uit te voeren. <br>
-.4 Weet je wat voor gevoelige data je hebt en waar dit allemaal staat? <br>
+.4 Weet je wat voor gevoelige data je hebt en waar dit allemaal staat? Wat zijn de kroonjuwelen van je organisatie? <br>
   .4.1 Heb je inzicht in hoe deze beveiligd zijn? <br>
   .4.2 ZELF: zijn er hier pentests? <br>
   .4.3 Weet je wat je kritieke systemen zijn? <br>
