@@ -15,8 +15,8 @@
 .5 Welke partijen werk je mee? <br>
   .5.1 Kan je van deze partij de SLA doorsturen? <br>
 .6 Doe je ooit iets met awareness? <br>
-  .6.1 Hoevaak doe je dit? Periodie? Continue?
-  .6.2 Heb je ooit iets van phishing simulatie gedaan?
+  .6.1 Hoevaak doe je dit? Periodie? Continue? <br>
+  .6.2 Heb je ooit iets van phishing simulatie gedaan? <br>
 .7 Heb je ooit al kwetsbaarhedenscans/pentests gedaan? <br>
 .8 Maak je gebruik van antivirus? <br>
   .8.1 is deze centraal gemanaged? <br>
