@@ -1,5 +1,9 @@
+-- Wat CISA baselines met maturity levels en microsoft secure score baselines,
+-- voor CISA baselines en uitrol zie: https://github.com/cisagov/ScubaGear/blob/main/baselines/
+-- voor Microsoft secure score baselines, zie de betreffende tenant
+
 -- Azure AD
--- gebaseerd op onderzoek van de amerikaanse CISA
+-- gebaseerd op een baseline van de Amerikaanse CISA
 -- zelf geprioritiseerd op maturity level
 
 MFA for all admins, maturity 0
@@ -27,7 +31,7 @@ Highly privileged users will not have permanent permissions, maturity 5
 Activation of Highly Privileged Roles SHOULD Require Approval, maturity 5
 
 -- Defender
--- gebaseerd op onderzoek van de amerikaanse CISA en op Microsoft secure score baseline
+-- gebaseerd op een baseline van de Amerikaanse CISA en op de Microsoft secure score baseline
 -- zelf geprioritiseerd op maturity level
 
 Domain impersonation protection SHOULD be enabled for domains owned by the agency, maturity 2
@@ -54,5 +58,37 @@ Domain impersonation protection SHOULD be added for frequent partners, maturity 
 Spam in quarantine SHOULD be retained for at least 30 days, maturity 4
 Allowed senders MAY be added but allowed domains SHALL NOT be added, maturity 4
 
--- e5
-Data Loss Prevention SHALL Be Enabled, maturity 5
+Data Loss Prevention SHALL Be Enabled, maturity 5 (E5)
+
+-- Exchange
+-- gebaseerd op een baseline van de Amerikaanse CISA
+-- zelf geprioritiseerd op maturity level
+
+Sender Policy Framework SHALL Be Enabled, maturity 0
+
+Automatic Forwarding to External Domains SHALL Be Disabled, maturity 1
+DomainKeys Identified Mail SHOULD Be Enabled, maturity 1
+
+Domain-Based Message Authentication, Reporting, and Conformance SHALL Be Enabled, maturity 2 (Quarantaine)
+Calendar details SHALL NOT be shared with all domains, although they MAY be shared with specific domains, maturity 2
+External sender warnings SHALL be implemented, maturity 2
+
+Domain-Based Message Authentication, Reporting, and Conformance SHALL Be Enabled, maturity 3 (Reject)
+Simple Mail Transfer Protocol Authentication SHALL Be Disabled, maturity 3
+Contact folders SHALL NOT be shared with all domains, although they MAY be shared with specific domains, maturity 3
+ IP Allow Lists SHOULD NOT be Implemented, maturity 3
+Mailbox Auditing SHALL Be Enabled, maturity 3
+
+-- Onedrive
+-- gebaseerd op een baseline van de Amerikaanse CISA
+
+Link Permissions SHOULD Be Set to Enabled Anyone Links to View, maturity 2 --default is edit
+
+Anyone Links SHOULD Be Turned Off for guests, maturity 3
+OneDrive Client Sync SHALL Only Be Allowed Within the Local Domain, maturity 3
+
+Expiration Date SHOULD Be Set for Anyone Links, maturity 4
+OneDrive Client for Windows SHALL be restricted to Defined Domain(s), maturity 4
+OneDrive Client SHALL Be Restricted to Sync with Mac for Defined Devices, maturity 4
+
+
