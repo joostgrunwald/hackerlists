@@ -1,0 +1,15 @@
+
+
+Enable impersonated domain protection, maturity 2
+
+Block abuse of exploited vulnerable signed drivers, maturity 3
+Turn on Microsoft Defender Application Guard managed mode, maturity 3
+Enable 'Local Security Authority (LSA) protection', maturity 3
+
+Disable 'Allow Basic authentication' for WinRM Service, maturity 4
+Block Office applications from creating executable content, maturity 4
+Block process creations originating from PSExec and WMI commands, maturity 4
+Block Office applications from injecting code into other processes, maturity 4
+Block Office communication application from creating child processes, maturity 4
+Turn on PUA protection in block mode, maturity 4
+Set User Account Control (UAC) to automatically deny elevation requests, maturity 4
