@@ -1,0 +1,26 @@
+-- Azure AD
+-- based on https://github.com/cisagov/ScubaGear/blob/main/baselines/aad.md
+
+MFA for all admins, maturity 0
+MFA for all users, maturity 1
+
+Guest User Access SHOULD Be Restricted, 2
+only admins can add third party applications, maturity 2
+
+CA - block legacy authentication, maturity 3
+passwords do not expire, maturity 3
+CA - block persistent browser sessions, maturity 3
+between 2 and 4 global administraotrs, maturity 3
+Managed Devices SHOULD Be Required for Authentication, maturity 3
+
+CA - limit session length to 12 or 24 hours, maturity 4
+highly privileged user accounts should be cloud only, maturity 4
+MFA number matching, maturity 4
+block high risk users, sent not to admin, maturity 4
+block high risk sign ins, sent not to admin, maturity 4
+Highly Privileged Role Assignment and Activation SHALL Be Monitored, maturity 4
+
+
+Phishing resistant MFA, maturity 5
+Highly privileged users will not have permanent permissions, maturity 5
+Activation of Highly Privileged Roles SHOULD Require Approval, maturity 5
