@@ -1,5 +1,6 @@
 -- Azure AD
--- based on https://github.com/cisagov/ScubaGear/blob/main/baselines/aad.md
+-- gebaseerd op onderzoek van de amerikaanse CISA
+-- zelf geprioritiseerd op maturity level
 
 MFA for all admins, maturity 0
 MFA for all users, maturity 1
@@ -26,5 +27,32 @@ Highly privileged users will not have permanent permissions, maturity 5
 Activation of Highly Privileged Roles SHOULD Require Approval, maturity 5
 
 -- Defender
--- based on https://github.com/cisagov/ScubaGear/blob/main/baselines/defender.md
--- Only when defender is used within an organisation
+-- gebaseerd op onderzoek van de amerikaanse CISA en op Microsoft secure score baseline
+-- zelf geprioritiseerd op maturity level
+
+Domain impersonation protection SHOULD be enabled for domains owned by the agency, maturity 2
+Spam and high confidence spam SHALL be moved to either the junk email folder or the quarantine folder, maturity 2
+Phishing and high confidence phishing SHALL be quarantined, maturity 2
+Safe Link Policies SHOULD Be Enabled, maturity 2
+Safe-Attachments SHALL Be Enabled, maturity 2
+
+Common attachment filter SHALL ben enabled, maturity 3
+Zero-Hour Auto Purge for Malware SHOULD Be Enabled, maturity 3
+User impersonation protection SHOULD be enabled for key agency leaders, maturity 3
+Intelligence for impersonation protection SHALL be enabled, maturity 3
+Mail classified as spoofed SHALL be quarantined, maturity 3
+Message action SHALL be set to quarantine if the message is detected as impersonated, maturity 3
+The bulk complaint level (BCL) threshold SHOULD be set to six or lower, maturity 3
+Bulk email SHOULD be moved to either the junk email folder or the quarantine folder, maturity 3
+Spam safety tips SHOULD be turned on, maturity 3
+Zero-hour auto purge (ZAP) SHALL be enabled for both phishing and spam messages, maturity 3
+
+At a minimum, the alerts required by the Exchange Online Minimum Viable Secure Configuration Baseline SHALL be enabled, maturity 4
+The alerts SHOULD be sent to a monitored address or incorporated into a SIEM, maturity 4
+All safety tips SHALL be enabled, including: first contact, user impersonation, domain impersonation, user impersonation unusual characters, “?” for unauthenticated senders for spoof, and “via” tag. maturity 4
+Domain impersonation protection SHOULD be added for frequent partners, maturity 4
+Spam in quarantine SHOULD be retained for at least 30 days, maturity 4
+Allowed senders MAY be added but allowed domains SHALL NOT be added, maturity 4
+
+-- e5
+Data Loss Prevention SHALL Be Enabled, maturity 5
