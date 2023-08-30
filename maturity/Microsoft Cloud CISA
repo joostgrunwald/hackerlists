@@ -12,6 +12,7 @@ MFA for all users, maturity 1
 Guest User Access SHOULD Be Restricted, 2
 only admins can add third party applications, maturity 2
 
+
 CA - block legacy authentication, maturity 3
 passwords do not expire, maturity 3
 CA - block persistent browser sessions, maturity 3
