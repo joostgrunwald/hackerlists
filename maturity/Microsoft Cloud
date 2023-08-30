@@ -24,3 +24,7 @@ Highly Privileged Role Assignment and Activation SHALL Be Monitored, maturity 4
 Phishing resistant MFA, maturity 5
 Highly privileged users will not have permanent permissions, maturity 5
 Activation of Highly Privileged Roles SHOULD Require Approval, maturity 5
+
+-- Defender
+-- based on https://github.com/cisagov/ScubaGear/blob/main/baselines/defender.md
+-- Only when defender is used within an organisation
