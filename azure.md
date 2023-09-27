@@ -15,6 +15,9 @@ https://silverhack.github.io/monkey365/configuration/azure-options/
 PS C:\Users\joost\Downloads\ScubaGear-0.3.0> Import-Module -Name .\PowerShell\ScubaGear <br>
 PS C:\Users\joost\Downloads\ScubaGear-0.3.0> Invoke-SCuBA
 
+# Orca365
+https://github.com/cammurray/orca
+
 # Things to check
 - which blobs are open
 - CA, compliance policies
